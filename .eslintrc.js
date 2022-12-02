@@ -18,6 +18,7 @@ module.exports = {
 			},
 		],
 		curly: 'error',
+		'import/no-unresolved': 0,
 		'import/no-default-export': 1,
 		'no-unused-vars': 'off',
 		'@typescript-eslint/no-unused-vars': ['error', { ignoreRestSiblings: true }],
@@ -30,6 +31,11 @@ module.exports = {
 		'react/jsx-first-prop-new-line': ['error', 'multiline'],
 		'@typescript-eslint/no-unused-expressions': 'error',
 		'arrow-parens': 'error',
+		'react/react-in-jsx-scope': 0,
+		'import/named': 0,
+		'import/no-named-as-default-member': 0,
+		'react/prop-types': 0,
+		'no-mixed-spaces-and-tabs': 0,
 	},
 	overrides: [
 		{
