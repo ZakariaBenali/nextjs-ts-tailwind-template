@@ -8,6 +8,7 @@ export default function Home() {
 			<h3 className="font-bold  text-2xl mb-2">This template is configured with the following options:</h3>
 			<ul className="list-disc">
 				<li>Pre-Commit hook with husky</li>
+				<li>Configuring with an initial font (inter from google) using @next/font</li>
 				<li>My most used EsLint Configuration</li>
 				<li>My most used Prettier Configuration</li>
 				<li>My most used vscode Configuration</li>
