@@ -36,10 +36,12 @@ module.exports = {
 		'import/no-named-as-default-member': 0,
 		'react/prop-types': 0,
 		'no-mixed-spaces-and-tabs': 0,
+		'react/display-name': 0,
+		'@typescript-eslint/no-explicit-any': 1,
 	},
 	overrides: [
 		{
-			files: ['src/pages/**/*.{tsx,ts}'],
+			files: ['src/pages/**/*.{tsx,ts}', 'codegen.ts'],
 			rules: {
 				'import/no-default-export': 0,
 			},
